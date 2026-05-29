@@ -22,6 +22,7 @@ A production-ready, full-stack restaurant management platform built with the MER
 ## 📋 Table of Contents
 
 - [About](#-about)
+- [Screenshots](#-screenshots)
 - [Tech Stack](#-tech-stack)
 - [Key Features](#-key-features)
 - [Architecture Overview](#-architecture-overview)
@@ -60,6 +61,50 @@ Restaurant MERN WebApp is an enterprise-grade platform designed to streamline re
 - Customer relationship management
 - Role-based staff management
 - Revenue and performance analytics
+
+---
+
+## 📸 Screenshots
+
+### Menu Showcase - Popular Items Display
+Browse our delicious menu with ratings and descriptions. Quick add-to-cart functionality with real-time inventory updates.
+
+![Menu Showcase - Popular items showing Pizza, Burger, Salad, and Cake with ratings and prices](docs/images/menu-showcase.png)
+
+**Features Shown:**
+- ⭐ Rating system (5-star reviews)
+- 🛒 Quick add-to-cart button
+- 📝 Item description and pricing
+- ❤️ Wishlist/favorite functionality
+- 🏷️ Category filtering
+
+---
+
+### Shopping Cart & Checkout
+Seamless checkout experience with order summary, delivery charges calculation, and secure payment processing.
+
+![Cart Checkout - Order summary with item details, subtotal, delivery charges, and proceed button](docs/images/cart-checkout.png)
+
+**Features Shown:**
+- 🛒 Cart item management (add/remove/quantity)
+- 📊 Real-time order summary
+- 💰 Price breakdown (Subtotal, Delivery, Tax)
+- 🚚 Free delivery option
+- 🔒 Secure checkout
+
+---
+
+### Order Tracking & Payment
+Real-time order status tracking with live updates via Socket.io and multiple payment method support.
+
+![Order Tracking - Real-time order status with pizza item, tracking details, and FeastFlow branding](docs/images/order-tracking.png)
+
+**Features Shown:**
+- 📍 Live order tracking
+- ⏱️ Estimated delivery time
+- 📞 Contact information
+- 🔄 Real-time status updates
+- 💳 Payment confirmation
 
 ---
 
@@ -355,6 +400,13 @@ restorant_app/
 │   ├── server.js                     # Express Server Entry Point
 │   ├── package.json
 │   └── README.md
+│
+├── docs/                              # Documentation
+│   ├── images/                        # Project screenshots
+│   │   ├── menu-showcase.png
+│   │   ├── cart-checkout.png
+│   │   └── order-tracking.png
+│   └── IMAGES.md
 │
 └── README.md                          # Main Project Documentation
 ```
@@ -1021,4 +1073,3 @@ For issues and questions:
 **Last Updated:** May 29, 2026 | **Status:** Active & Maintained ✅
 
 **⭐ If you find this project helpful, please consider giving it a star!**
-
